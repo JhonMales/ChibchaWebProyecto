@@ -1,0 +1,54 @@
+.card-perfil {
+align-items: center !important;
+padding: 20px !important;
+width: 350px !important;
+height: auto !important;
+margin: 50px !important;
+}
+
+.card-btn {
+align-items: center;
+width: 350px!important;
+height: auto !important;
+margin: 50px !important;
+}
+
+.card-suscripcion {
+align-items: center !important;
+width: 250!important;
+height: 200px !important;
+margin: 50px !important;
+}
+
+.table{
+width: 100%;
+margin: auto;
+margin-bottom: 30px;
+border-radius:30%;
+}
+
+.container-cliente{
+
+align-items: center;
+
+}
+
+.card-dominio {
+align-items: center !important;
+height: 200px !important;
+width: 350px!important;
+margin: 50px !important;
+}
+
+.vista-detallada {
+    align-items: center !important;
+    width: 320px !important;
+    height: auto !important;
+    margin: 50px !important;
+}
+
+
+.tablaWeb{
+    height: auto !important;
+    width: auto!important; 
+}

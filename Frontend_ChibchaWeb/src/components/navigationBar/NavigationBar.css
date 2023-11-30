@@ -1,0 +1,10 @@
+.dark-transparent-navbar {
+  background-image: linear-gradient(70deg, #ffff81 0, #f5dc51 50%, #d2ba13 100%);
+  backdrop-filter: blur(10px); /* Ajusta según tus preferencias */
+  border: none;
+}
+
+.textbar {
+  color: #000000;
+}
+

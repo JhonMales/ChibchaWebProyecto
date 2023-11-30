@@ -1,0 +1,8 @@
+footer{
+    max-height: 720px;
+    background-color: rgba(0, 0, 0, 0.35) !important;
+    backdrop-filter: blur(1px);
+    display: flexbox;
+}
+
+

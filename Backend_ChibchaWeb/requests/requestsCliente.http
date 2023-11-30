@@ -1,0 +1,49 @@
+//Clientes
+//Crear cliente
+###
+POST http://localhost:3000/api/crearCliente HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombres": "Cristian David",
+    "apellidos": "Espitia Vanegas",
+    "tipoDocumento": "CC",
+    "documentoIdentificacion": "1001332146",
+    "pais": "Colombia",
+    "ciudad": "Bogota",
+    "direccion": "Cra 20",
+    "codigoPostal": "111811",
+    "telefono": "3203500184",
+    "correo": "cristianespitia2506@gmail.com",
+    "fechaNacimiento": "2001-06-25"
+}
+
+//Actualizar cliente
+###
+PUT http://localhost:3000/api/actualizarCliente HTTP/1.1
+Content-Type: application/json
+
+{
+    "direccion": "Carrera 26B #32A - 75 Sur"
+}
+
+//Actualizar cliente por ID
+###
+PUT http://localhost:3000/api/actualizarClienteID/6549c8b4245455dc764bd72d HTTP/1.1
+Content-Type: application/json
+
+{
+    "direccion": "Cra 26B - 75 Sur"
+}
+
+//Obtener clientes
+###
+GET http://localhost:3000/api/obtenerClientes HTTP/1.1
+
+//Obtener cliente
+###
+GET http://localhost:3000/api/obtenerCliente HTTP/1.1
+
+//Eliminar cliente
+###
+DELETE http://localhost:3000/api/eliminarCliente/654b24323396f86c3fe74074 HTTP/1.1

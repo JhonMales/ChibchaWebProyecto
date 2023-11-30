@@ -1,0 +1,20 @@
+.imagen{
+     width: auto;
+     border-radius: 5px;
+     transition: all 0.2s ease-in-out;
+}
+.imagen:hover{
+     transform: scale(1.0);
+}
+
+
+.card:hover{
+     box-shadow: 5px 10px 20px 1px rgb(0, 0, 0) !important;
+     transition: all 0.3s linear;
+ }
+
+.card{
+     width: 300px ;
+     height: 850px !important;
+}
+ 

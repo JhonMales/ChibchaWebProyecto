@@ -1,0 +1,38 @@
+body{
+    background: rgb(22, 19, 19);
+}
+
+.admin-container {
+    padding: 20px; /* Agrega un espacio alrededor del contenido */
+    width: 60%; /* Ajusta el ancho del contenedor principal */
+    margin: 0 auto; /* Centra el contenedor en la página */
+}
+  
+.table-container {
+    width: 95%; /* Ajusta el ancho de la tabla dentro del contenedor */
+}
+  
+
+.table-container {
+    display: flex;
+    justify-content: space-between; /* Otra opción: "space-around" o "space-evenly" */
+    margin: 20px; /* Ajusta el margen según tus necesidades */
+}
+
+
+.centered-accordion {
+    padding-top: 20px;
+    margin: 0 auto; /* Centra el contenedor en la página */
+    width: 40%;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+}
+
+.accordion-header{
+    background: rgb(22, 19, 19);
+}
+
+.accordion-body{
+    background: rgb(22, 19, 19);
+}

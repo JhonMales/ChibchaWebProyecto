@@ -1,0 +1,36 @@
+.carousel {
+  margin: 0 auto;
+  position: relative;
+  width: 50%;
+  padding-top: 30%;
+  align-items: center;
+  overflow: hidden; /* Para ocultar cualquier contenido que pueda desbordar */
+}
+
+.carousel-inner img {
+  width: 800px;
+  height: 450px;
+  filter: blur(1px); /* Aplicar efecto de desenfoque a las imágenes */
+}
+
+.carousel-inner {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 50%; /* Centrar verticalmente en la mitad de la pantalla */
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5); /* Fondo oscuro semi-transparente para mejorar la legibilidad del texto */
+  color: white;
+  border-radius:5px;
+  padding: 15px;
+  text-align: center;
+  width: auto;
+  font-family: 'Kemilash';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Kemilash'), url('https://fonts.cdnfonts.com/s/106912/Kemilash-p7G0D.woff') format('woff');
+}

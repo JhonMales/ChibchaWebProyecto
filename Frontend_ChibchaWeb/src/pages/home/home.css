@@ -1,0 +1,38 @@
+
+@import url('https://fonts.cdnfonts.com/css/luminari');
+
+body{
+    background: rgb(0,0,0);
+    background-image: linear-gradient(70deg, #222328 0, #090802 50%, #000000 100%);
+    
+  }
+
+.custom-container {
+  width: 50% !important; 
+  margin: 0 auto !important;  
+  text-align: justify !important; 
+  font-family: 'Bona Nova';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Bona Nova'), url('https://fonts.cdnfonts.com/s/93240/BonaNova-Regular.woff') format('woff');
+
+}
+  
+  .black-text {
+    color: rgb(41, 38, 38);
+
+  }
+  
+  .smaller-font {
+    color: white;
+    font-size: 15.5px; 
+
+  }
+
+  .fonts-custom{
+    color: white;
+    font-family: 'Kemilash';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Kemilash'), url('https://fonts.cdnfonts.com/s/106912/Kemilash-p7G0D.woff') format('woff');
+  }
