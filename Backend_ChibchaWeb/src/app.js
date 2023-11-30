@@ -22,7 +22,7 @@ const app = express();
 
 //Permitir que el dominio especificado se pueda comunicar en este servidor
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: ['http://localhost:5173', 'https://frontend-app-mjnx.onrender.com'],
     credentials: true
 }));
 
