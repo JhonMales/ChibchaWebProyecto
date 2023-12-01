@@ -2,6 +2,7 @@ import express from "express";
 import morgan from "morgan";
 import cookieParser from "cookie-parser";
 import cors from "cors";
+import {FRONTEND_URL} from "./config.js";
 
 //Rutas
 import usuarioRoutes from "./routes/usuario.routes.js";
@@ -22,7 +23,7 @@ const app = express();
 
 //Permitir que el dominio especificado se pueda comunicar en este servidor
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: FRONTEND_URL,
     credentials: true
 }));
 
