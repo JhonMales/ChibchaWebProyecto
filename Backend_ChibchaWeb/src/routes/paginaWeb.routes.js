@@ -9,7 +9,7 @@ const router = Router();
 router.post('/crearPagina', authRequired, crearPagina);
 
 //Obtener todos las Paginas del Cliente
-router.get('/obtenerPaginas', obtenerPaginas);
+router.get('/obtenerPaginas', authRequired, obtenerPaginas);
 
 //Obtener una Pagina Web del Cliente
 router.get('obtenerPagina/:id', authRequired, obtenerPagina);
